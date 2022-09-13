@@ -1,3 +1,7 @@
+"""
+    九九の計算する
+"""
+
 # 掛け算するための関数
 def calc_times(value):
     times_list = []
@@ -19,5 +23,7 @@ def show_times_table():
             print(j, end=" ")
         print()
     print("##########################")
-    
-show_times_table()
+
+
+if __name__ == "__main__":
+    show_times_table()
